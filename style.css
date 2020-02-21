@@ -1,0 +1,42 @@
+.string {
+    background-color: white;
+    display: flex;
+}
+.square {
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.containerForUserField {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerForGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.ship4 {
+    background-color: tomato;
+}
+.ship3 {
+    background-color: green;
+}
+.ship2 {
+    background-color: darkmagenta;
+}
+.ship1 {
+    background-color: gold;
+}
+.test {
+    background-color: black;
+}
